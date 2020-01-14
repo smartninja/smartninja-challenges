@@ -1,5 +1,11 @@
 # SmartNinja Coding Challenges
 
+This is a list of coding challenges that will be regularly updated. If you have an idea for a challenge, create an [issue](https://github.com/smartninja/smartninja-challenges/issues/new) or a pull request in this repository.
+
+You don't need to do challenges in this order. You can pick whichever challenge you like and skip the ones that don't interest you.
+
+Happy coding! 🙂
+
 ## 1. Python
 
 ### Challenge 1.1: Blackjack
