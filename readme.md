@@ -30,6 +30,8 @@ For example, you'd run the script like this:
 
 The script would take the input ("Berlin,DE") and call the OpenWeatherMap API to get the weather data for Berlin, Germany (DE means Deutschland, which is a German name for Germany). Then it would print out the weather data in the Terminal.
 
+> Bonus: Create a GUI for your weather program.
+
 ### Challenge 1.3: Find tweets
 
 Create a Python script that would find all tweets on a certain keyword that were posted today.
@@ -39,6 +41,14 @@ You would run the script like this:
 	python tweets.py coding
 
 And the script would print out all the tweets with the "coding" keyword in it (you'll need to use Twitter API for this).
+
+### Challenge 1.4: A Markdown program
+
+Create a Python program (with GUI) that would serve as a Markdown editor. It should look something like [Mou](http://25.io/mou/):
+
+![](http://25.io/mou/img/1@2x.png)
+
+> If you don't know what Markdown is, google it and learn how to use it. You can use [StackEdit](https://stackedit.io/app#) for learning.
 
 ## 2. HTML & CSS
 
@@ -75,6 +85,18 @@ For a payment system, implement something like Stripe, Gumroad or Braintree, but
 Create a password management system, such as Dashlane or LastPass.
 
 > Bonus: also create a Chrome or Firefox plugin with JavaScript.
+
+### Challenge 3.5: Search engine
+
+Create your own search engine. Yes, for real, I'm not kidding. :)
+
+What do you need for a search engine?
+
+1. **A web crawler:** This is basically a background task or a completely separated web app that goes from site to site and clicks all the links and tries to figure out what the website is about.
+2. **A search index:** This is just a database of websites. You can use PostgreSQL or MongoDB or something else. Keep it simple. Only store a website name, URL and keywords (that you get from the `<meta>` tag from `<head>`. If that meta tag does not exist, you can analyse the words on the website and get 5 most common words that are not generic words like "and" or "of" (this is optional, although there should be a Python library for that).
+3. **A search engine website:** This is a web app where you have a big input box in the middle in which you write a search term and hit enter. Then your web app should check your database (the search index) and find websites that have this keyword.
+
+As you can see, this will be a very simple search engine. No need for a bit more "advanced" stuff like checking how many websites link to a certain site.
 
 ## 4. Other
 
