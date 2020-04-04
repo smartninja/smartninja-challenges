@@ -98,6 +98,16 @@ What do you need for a search engine?
 
 As you can see, this will be a very simple search engine. No need for a bit more "advanced" stuff like checking how many websites link to a certain site.
 
+### Challenge 3.6: Annotated news
+
+Have you ever heard of a music lyrics website called [Genius](https://genius.com/)? It allows you to **annotate** parts of a music lyric and write comments about it. 
+
+See it for yourself here: [New York, New York by Frank Sinatra](https://genius.com/4576338). Click on the highlighted parts of the text and you'll see comments on the side. This are **annotations**.
+
+For this challenge, create a news web app that would allow users to annotate (comment) certain parts of the text.
+
+P.S.: You'll need a lot of JavaScript here. ;)
+
 ## 4. Other
 
 For more coding challenges, try websites like [CodeWars](https://www.codewars.com/) and [HackerRank](https://www.hackerrank.com/).
