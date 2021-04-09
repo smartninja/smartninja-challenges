@@ -8,7 +8,26 @@ Happy coding! 🙂
 
 ## 1. Python
 
-### Challenge 1.1: Blackjack
+### Challenge 1.1: Parse the list of users
+
+#### Basic challenge
+
+In the `data` folder, you can find a file called `users.json`. This file includes (fake) data about 10 people.
+
+Create a Python program that would read the contents of this file and do the following:
+
+- Separate/split the `name` into `first_name` and `last_name`
+- For each person print out the following things (in this order):
+	- Last name
+	- First name
+	- Latitude of the city the person lives in (geo/lat)
+	- The catch phrase of the company that this person works for
+
+#### Bonus challenge
+
+Create a program that will ask the user to enter some last name (for example "Graham"). If a person with this last name is in `users.json`, then print that person's **name**, **email** and **company name**.
+
+### Challenge 1.2: Blackjack
 
 Have you ever played Blackjack? If not, try it out, there are plenty of online games out there. The rules are very simple. :)
 
@@ -20,7 +39,7 @@ Write a Blackjack Python script where you can play against the computer.
 > 
 > Another option is that the level is set automatically, either before the game or even during the game (the computer could randomly switch from being aggressive to being conservative).
 
-### Challenge 1.2: Print current weather
+### Challenge 1.3: Print current weather
 
 Create a Python script that you'd run in the Terminal and it would print out the current weather for the given city.
 
@@ -32,7 +51,7 @@ The script would take the input ("Berlin,DE") and call the OpenWeatherMap API to
 
 > Bonus: Create a GUI for your weather program.
 
-### Challenge 1.3: Find tweets
+### Challenge 1.4: Find tweets
 
 Create a Python script that would find all tweets on a certain keyword that were posted today.
 
@@ -42,7 +61,7 @@ You would run the script like this:
 
 And the script would print out all the tweets with the "coding" keyword in it (you'll need to use Twitter API for this).
 
-### Challenge 1.4: A Markdown program
+### Challenge 1.5: A Markdown program
 
 Create a Python program (with GUI) that would serve as a Markdown editor. It should look something like [Mou](http://25.io/mou/):
 
