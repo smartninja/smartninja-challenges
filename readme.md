@@ -27,7 +27,26 @@ Create a Python program that would read the contents of this file and do the fol
 
 Create a program that will ask the user to enter some last name (for example "Graham"). If a person with this last name is in `users.json`, then print that person's **name**, **email** and **company name**.
 
-### Challenge 1.2: Blackjack
+### Challenge 1.2: Parse the weather data
+
+Go to the `data` folder and download the `weather.json` file.
+
+Create a computer program that would read this file and print out the following:
+
+- City name
+- Country code
+- Current temperature
+- Weather description
+
+**Bonus challenge:**
+
+Find values for `sunrise` and `sunset`. This is a timestamp for at which time the sun goes up and at which time goes down (for that specific day).
+
+Convert the timestamps into an actual date and time (day, month, year, hour, minutes).
+
+> Hint: you will need to use the `datetime` library for this.
+
+### Challenge 1.3: Blackjack
 
 Have you ever played Blackjack? If not, try it out, there are plenty of online games out there. The rules are very simple. :)
 
@@ -39,7 +58,7 @@ Write a Blackjack Python script where you can play against the computer.
 > 
 > Another option is that the level is set automatically, either before the game or even during the game (the computer could randomly switch from being aggressive to being conservative).
 
-### Challenge 1.3: Print current weather
+### Challenge 1.4: Print current weather
 
 Create a Python script that you'd run in the Terminal and it would print out the current weather for the given city.
 
@@ -51,7 +70,7 @@ The script would take the input ("Berlin,DE") and call the OpenWeatherMap API to
 
 > Bonus: Create a GUI for your weather program.
 
-### Challenge 1.4: Find tweets
+### Challenge 1.5: Find tweets
 
 Create a Python script that would find all tweets on a certain keyword that were posted today.
 
@@ -61,7 +80,7 @@ You would run the script like this:
 
 And the script would print out all the tweets with the "coding" keyword in it (you'll need to use Twitter API for this).
 
-### Challenge 1.5: A Markdown program
+### Challenge 1.6: A Markdown program
 
 Create a Python program (with GUI) that would serve as a Markdown editor. It should look something like [Mou](http://25.io/mou/):
 
